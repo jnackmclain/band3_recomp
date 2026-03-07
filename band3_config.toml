@@ -51357,7 +51357,7 @@ d3d12_readback_resolve = true
 0x82857020 = { name = "rex_sub_82857020", size = 0x14C }
 0x82857170 = { name = "rex_sub_82857170", size = 0x58 }
 0x828571C8 = { name = "rex_sub_828571C8", size = 0xC0 }
-0x82857288 = { name = "D3DResource_AddRef", size = 0x74 }
+0x82857288 = { name = "_D3DResource_AddRef", size = 0x74 }
 0x82857300 = { name = "rex_sub_82857300", size = 0x68 }
 0x82857368 = { name = "rex_sub_82857368", size = 0xC8 }
 0x82857430 = { name = "rex_sub_82857430", size = 0x10 }
