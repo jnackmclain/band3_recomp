@@ -30,8 +30,9 @@ enum DataType {
 };
 
 struct DataNode {
-    rex::be<int> value;
-    rex::be<int> type;
+    rex::be<uint32_t> value;
+    rex::be<uint32_t> type; 
 };
+
 
 }

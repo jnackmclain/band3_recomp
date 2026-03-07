@@ -15,6 +15,12 @@ struct Config {
     bool fast_start = false;
     std::string lang;
     bool disable_metamusic = false;
+    bool disable_approximate_lights = true;
+    bool disable_hair_shader = false;
+    bool fullbright = false;
+    bool compress_character_textures = false;
+    long main_heap_size = 0;
+    long char_heap_size = 0;
     bool debug_overlay = true;
     std::string log_level = "info";
 };
