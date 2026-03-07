@@ -46598,7 +46598,7 @@ d3d12_readback_resolve = true
 0x827BC240 = { name = "rex_sub_827BC240", size = 0x30 }
 0x827BC270 = { name = "MemDoTempAllocations_ct", size = 0x30 }
 0x827BC2A0 = { name = "rex_sub_827BC2A0", size = 0x30 }
-0x827BC2D0 = { name = "rex_sub_827BC2D0", size = 0x158 }
+0x827BC2D0 = { name = "AddHeap", size = 0x158 }
 0x827BC430 = { name = "rex_sub_827BC430", size = 0xBC }
 0x827BC4EC = { name = "rex_sub_827BC4EC", size = 0x28 }
 0x827BC520 = { name = "rex_sub_827BC520", size = 0x11C }

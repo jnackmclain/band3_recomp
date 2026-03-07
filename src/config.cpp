@@ -51,6 +51,10 @@ void LoadConfig(const char* path) {
         reader.GetBoolean("graphics", "compress_character_textures", g_config.compress_character_textures);
     g_config.fullbright =
         reader.GetBoolean("graphics", "fullbright", g_config.fullbright);
+    g_config.main_heap_size =
+        reader.GetInteger("memory", "main_heap_size", g_config.main_heap_size);
+    g_config.char_heap_size =
+        reader.GetInteger("memory", "char_heap_size", g_config.char_heap_size);
     g_config.debug_overlay =
         reader.GetBoolean("debug", "overlay", g_config.debug_overlay);
     g_config.log_level =
