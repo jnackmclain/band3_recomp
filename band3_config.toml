@@ -67658,4 +67658,4 @@ after_instruction = true
 address = 0x825216C0
 name = "UpdateArkHook"
 registers = ["r4"]
-after_instruction = true
+after_instruction = false
